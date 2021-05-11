@@ -1,0 +1,45 @@
+{
+  "name": "fluffy-octo-telegram",
+  "private": true,
+  "author": "Hemant Bhoi",
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@date-io/dayjs": "1.x",
+    "@date-io/luxon": "1.x",
+    "@date-io/moment": "1.x",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "date-fns": "^2.21.1",
+    "dayjs": "^1.10.4",
+    "fontsource-roboto": "^4.0.0",
+    "gatsby": "^3.4.0",
+    "gatsby-plugin-material-ui": "^3.0.1",
+    "luxon": "^1.26.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
